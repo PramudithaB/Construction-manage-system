@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+html
+{
+ font-family: 'Poppins', sans-serif;
+ scroll-behavior: smooth;
+}
+body
+{
+ margin:0;   
+ padding: 0;
+ background: linear-gradient(to left, #65b0ff, rgb(179, 247, 179));
+}
+
+table, td, tr 
+{
+ border: 30px solid  transparent;   
+ border-collapse: collapse;
+}
+
+.fieldset
+{
+ padding: 30px 5px;
+ margin-right:650px;
+ margin-left: 650px;
+ margin-top: 5%;
+ margin-bottom: 1%;
+ background-image: linear-gradient(to bottom right, #ffffff, #848a89);
+ /* background: rgb(255, 255, 255); */
+ border: 5px solid rgb(255, 255, 255);
+ border-radius: 40px;
+}
+
+.button1
+{
+  color: rgb(0, 0, 0);
+  padding: 12px 25px;
+  background-image: linear-gradient(to bottom right, #ffffff, #848a89);
+  border: 4px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+
+
+label
+{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+h2
+{
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(to bottom right, #ffffff, #848a89);
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px 25px;
+}
+
+input
+{
+    background-image: linear-gradient(to bottom right, #ffffff, #848a89);
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: solid white;
+}
+
+/* Creating header */
+.header2
+{
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    background: transparent;
+}
+.header2 ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header2 img
+{
+    width: 100px;
+    height: 100px;
+    padding-right: 30px;
+}
+.header2 .nav2 li
+{   
+    margin-top: 0px;
+    padding-inline: 20px;
+}
+.header2 .nav2 li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.header2 .nav2 li a:hover
+{
+    border-bottom: 4px solid blue;
+}
+.header2 li i
+{
+    font-size: 80px;
+    color: black;
+    padding-bottom: 15px;
+    padding-right: 20px;
+}
+.header2 .main2 li
+{
+    font-size: 20px;
+}

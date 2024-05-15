@@ -1,0 +1,132 @@
+* {
+  margin: 5px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+  background-color: #007bff;
+  color: #fff;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #0056b3;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #e2e6ea;
+}
+
+.update {
+  background-color: rgb(26, 231, 36);
+  color: black;
+  border: 2px solid #065814;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.update:hover,
+.update:active {
+  background-color: rgb(16, 117, 21);
+  color: white;
+}
+
+.delete {
+  background-color: rgb(231, 26, 26);
+  color: black;
+  border: 2px solid #580606;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.delete:hover,
+.delete:active {
+  background-color: rgb(117, 16, 16);
+  color: white;
+}
+
+.btn1 {
+  background-color: #ffff00;
+  color: black;
+  border: 2px solid #96960f;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.btn1:hover,
+.btn1:active {
+  background-color: rgb(107, 117, 16);
+  color: white;
+}
+
+.btn2 {
+  background-color: #2f00ff;
+  color: black;
+  border: 2px solid #210852;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.btn2:hover,
+.btn2:active {
+  background-color: rgb(26, 16, 117);
+  color: white;
+}
+
+.btn3 {
+  background-color: #00fff2;
+  color: black;
+  border: 2px solid #083152;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.btn3:hover,
+.btn3:active {
+  background-color: rgb(16, 85, 117);
+  color: white;
+}
+/**************/
